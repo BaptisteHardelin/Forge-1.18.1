@@ -1,0 +1,13 @@
+{
+  "item.testmod.citrine": "Citrine",
+  "item.testmod.raw_citrine": "Raw Citrine",
+
+  "block.testmod.citrine_block": "Citrine Block",
+  "block.testmod.raw_citrine_block": "Raw Citrine Block",
+  "block.testmod.citrine_ore": "Citrine Ore",
+  "block.testmod.deepslate_citrine_ore": "Deepslate Citrine Ore",
+  "block.testmod.endstone_citrine_ore": "Endstone Citrine Ore",
+  "block.testmod.netherrack_citrine_ore": "Netherrack Citrine Ore",
+
+  "itemGroup.testmodtab": "TestMod"
+}

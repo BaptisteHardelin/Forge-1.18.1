@@ -1,5 +1,6 @@
 package fr.babaprog.testmod;
 
+import fr.babaprog.testmod.block.ModBlocks;
 import fr.babaprog.testmod.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -30,6 +31,7 @@ public class TestMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "testmod:citrine"
+      "item": "testmod:raw_citrine"
     }
   },
   "result": {
-    "item": "testmod:citrine_block"
+    "item": "testmod:citrine"
   }
 }

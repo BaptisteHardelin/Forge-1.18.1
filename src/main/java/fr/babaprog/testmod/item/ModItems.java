@@ -1,7 +1,7 @@
 package fr.babaprog.testmod.item;
 
 import fr.babaprog.testmod.TestMod;
-import net.minecraft.world.item.CreativeModeTab;
+import fr.babaprog.testmod.item.custom.DowsingRodItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -18,6 +18,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_CITRINE = ITEMS.register("raw_citrine",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB)));
+
+    public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
+            () -> new DowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB).durability(16)));
 
 
     public static void register(IEventBus eventBus) {

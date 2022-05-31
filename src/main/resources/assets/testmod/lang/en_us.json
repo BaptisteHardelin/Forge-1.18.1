@@ -1,6 +1,7 @@
 {
   "item.testmod.citrine": "Citrine",
   "item.testmod.raw_citrine": "Raw Citrine",
+  "item.testmod.dowsing_rod": "Dowsing Rod",
 
   "block.testmod.citrine_block": "Citrine Block",
   "block.testmod.raw_citrine_block": "Raw Citrine Block",
@@ -9,5 +10,6 @@
   "block.testmod.endstone_citrine_ore": "Endstone Citrine Ore",
   "block.testmod.netherrack_citrine_ore": "Netherrack Citrine Ore",
 
-  "itemGroup.testmodtab": "TestMod"
+  "itemGroup.testmodtab": "TestMod",
+  "item.testmod:dowsing_rod.no_valuables": "No Valuables found !"
 }

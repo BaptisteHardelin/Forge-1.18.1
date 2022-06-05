@@ -1,6 +1,7 @@
 package fr.babaprog.testmod.item;
 
 import fr.babaprog.testmod.TestMod;
+import fr.babaprog.testmod.item.custom.CoalCokeItem;
 import fr.babaprog.testmod.item.custom.DowsingRodItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,6 +25,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> CUCUMBER = ITEMS.register("cucumber",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB).food(ModFoods.CUCUMBER)));
+
+    public static final RegistryObject<Item> COAL_COKE_ITEM = ITEMS.register("coal_coke",
+            () -> new CoalCokeItem(new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB)));
 
 
     public static void register(IEventBus eventBus) {

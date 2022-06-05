@@ -13,6 +13,9 @@
   "block.testmod.netherrack_citrine_ore": "Netherrack Citrine Ore",
   "block.testmod.speedy_block": "Speedy Block",
 
+  "tooltip.testmod.dowsing_rod.tooltip.shift": "A tool that allows you to see if there is any coal, copper, iron, gold or diamond below you, using with the right click",
+  "tooltip.testmod.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
+  "tooltip.testmod.block.speedy_block": "I'm speed",
 
 
   "itemGroup.testmodtab": "TestMod",

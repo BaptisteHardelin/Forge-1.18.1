@@ -1,6 +1,7 @@
 package fr.babaprog.testmod.block;
 
 import fr.babaprog.testmod.TestMod;
+import fr.babaprog.testmod.block.custom.SpeedyBlock;
 import fr.babaprog.testmod.item.ModCreativeModeTab;
 import fr.babaprog.testmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -43,6 +44,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> NETHERRACK_CITRINE_ORE = registerBlock("netherrack_citrine_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TESTMOD_TAB);
+
+    public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
+            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TESTMOD_TAB);
 
     private static <T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

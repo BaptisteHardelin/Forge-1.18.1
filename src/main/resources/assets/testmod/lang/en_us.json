@@ -17,6 +17,10 @@
   "block.testmod.citrine_fence": "Citrine Fence",
   "block.testmod.citrine_fence_gate": "Citrine Fence Gate",
   "block.testmod.citrine_wall": "Citrine Wall",
+  "block.testmod.citrine_button": "Citrine Button",
+  "block.testmod.citrine_pressure_plate": "Citrine Pressure Plate",
+  "block.testmod.ebony_door": "Citrine Door",
+  "block.testmod.ebony_trapdoor": "Citrine Trapdoor",
 
   "tooltip.testmod.dowsing_rod.tooltip.shift": "A tool that allows you to see if there is any coal, copper, iron, gold or diamond below you, using with the right click",
   "tooltip.testmod.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
@@ -24,5 +28,5 @@
 
 
   "itemGroup.testmodtab": "TestMod",
-  "item.testmod:dowsing_rod.no_valuables": "No Valuables found !"
+  "item.testmod.dowsing_rod.no_valuables": "No Valuables found !"
 }

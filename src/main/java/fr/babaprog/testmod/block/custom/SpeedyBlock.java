@@ -18,8 +18,8 @@ public class SpeedyBlock extends Block {
     @Override
     public void stepOn(Level pLevel, BlockPos pPos, BlockState pState, Entity pEntity) {
 
-        if(!pLevel.isClientSide()) {
-            if(pEntity instanceof LivingEntity) {
+        if (!pLevel.isClientSide()) {
+            if (pEntity instanceof LivingEntity) {
                 LivingEntity livingEntity = ((LivingEntity) pEntity);
                 livingEntity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 300));
             }

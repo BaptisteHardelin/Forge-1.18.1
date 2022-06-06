@@ -12,6 +12,11 @@
   "block.testmod.endstone_citrine_ore": "Endstone Citrine Ore",
   "block.testmod.netherrack_citrine_ore": "Netherrack Citrine Ore",
   "block.testmod.speedy_block": "Speedy Block",
+  "block.testmod.citrine_stairs": "Citrine Stairs",
+  "block.testmod.citrine_slab": "Citrine Slab",
+  "block.testmod.citrine_fence": "Citrine Fence",
+  "block.testmod.citrine_fence_gate": "Citrine Fence Gate",
+  "block.testmod.citrine_wall": "Citrine Wall",
 
   "tooltip.testmod.dowsing_rod.tooltip.shift": "A tool that allows you to see if there is any coal, copper, iron, gold or diamond below you, using with the right click",
   "tooltip.testmod.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",

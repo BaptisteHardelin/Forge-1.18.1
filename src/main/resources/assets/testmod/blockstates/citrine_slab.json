@@ -4,7 +4,7 @@
       "model": "testmod:block/citrine_slab"
     },
     "type=double": {
-      "model": "testmod:block/citrine_planks"
+      "model": "testmod:block/citrine_block"
     },
     "type=top": {
       "model": "testmod:block/citrine_slab_top"

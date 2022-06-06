@@ -4,6 +4,11 @@
   "item.testmod.dowsing_rod": "Dowsing Rod",
   "item.testmod.cucumber": "Cucumber",
   "item.testmod.coal_coke": "Coal Coke",
+  "item.testmod.citrine_sword": "Citrine Sword",
+  "item.testmod.citrine_pickaxe": "Citrine Pickaxe",
+  "item.testmod.citrine_axe": "Citrine Axe",
+  "item.testmod.citrine_shovel": "Citrine Shovel",
+  "item.testmod.citrine_houe": "Citrine Hoe",
 
   "block.testmod.citrine_block": "Citrine Block",
   "block.testmod.raw_citrine_block": "Raw Citrine Block",
@@ -25,7 +30,6 @@
   "tooltip.testmod.dowsing_rod.tooltip.shift": "A tool that allows you to see if there is any coal, copper, iron, gold or diamond below you, using with the right click",
   "tooltip.testmod.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
   "tooltip.testmod.block.speedy_block": "I'm speed",
-
 
   "itemGroup.testmodtab": "TestMod",
   "item.testmod.dowsing_rod.no_valuables": "No Valuables found !"

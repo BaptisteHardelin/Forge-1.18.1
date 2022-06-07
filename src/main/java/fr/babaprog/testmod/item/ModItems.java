@@ -3,6 +3,9 @@ package fr.babaprog.testmod.item;
 import fr.babaprog.testmod.TestMod;
 import fr.babaprog.testmod.item.custom.CoalCokeItem;
 import fr.babaprog.testmod.item.custom.DowsingRodItem;
+import fr.babaprog.testmod.item.custom.LevitationSword;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.Item;
@@ -38,7 +41,7 @@ public class ModItems {
                         () -> new CoalCokeItem(new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB)));
 
         public static final RegistryObject<Item> CITRINE_SWORD = ITEMS.register("citrine_sword",
-                        () -> new SwordItem(ModTiers.CITRINE,
+                        () -> new LevitationSword(ModTiers.CITRINE,
                                         2, 3f, new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB)));
 
         public static final RegistryObject<Item> CITRINE_PICKAXE = ITEMS.register("citrine_pickaxe",
@@ -56,6 +59,22 @@ public class ModItems {
         public static final RegistryObject<Item> CITRINE_HOUE = ITEMS.register("citrine_houe",
                         () -> new HoeItem(ModTiers.CITRINE,
                                         1, 1f, new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB)));
+
+        public static final RegistryObject<Item> CITRINE_HELMET = ITEMS.register("citrine_helmet",
+                        () -> new ArmorItem(ModArmorMaterials.CITRINE, EquipmentSlot.HEAD,
+                                        new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB)));
+
+        public static final RegistryObject<Item> CITRINE_CHESTPLATE = ITEMS.register("citrine_chestplate",
+                        () -> new ArmorItem(ModArmorMaterials.CITRINE, EquipmentSlot.CHEST,
+                                        new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB)));
+
+        public static final RegistryObject<Item> CITRINE_LEGGINGS = ITEMS.register("citrine_leggings",
+                        () -> new ArmorItem(ModArmorMaterials.CITRINE, EquipmentSlot.LEGS,
+                                        new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB)));
+
+        public static final RegistryObject<Item> CITRINE_BOOTS = ITEMS.register("citrine_boots",
+                        () -> new ArmorItem(ModArmorMaterials.CITRINE, EquipmentSlot.FEET,
+                                        new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB)));
 
         public static void register(IEventBus eventBus) {
                 ITEMS.register(eventBus);
